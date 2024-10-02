@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <title>FORMS</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<center>
+<body>
+    
+    <h1>UNIVERSITY REGISTRATION FORM</h1>
+    <form method="POST" action="regform">
+        {% csrf_token %}
+        <label>Name</label>
+        <input type=".text" name="name" placeholder="Enter your name"><br><br>
+
+        <label>Email</label>
+        <input type=".text" name="email" placeholder="Enter your email"><br><br>
+
+        <label>Phone</label>
+        <input type=".text" name="phone" placeholder="Enter your Phone Number"><br><br>
+
+        <label>Password</label>
+        <input type=".text" name="password" placeholder="Enter your Password"><br><br>
+
+        
+     
+        </select>
+        <input type="Submit">
+
+
+    </form>
+</center>
+</body>
+</html>
